@@ -125,3 +125,32 @@ button {
     margin: 0 3px;
     cursor: pointer;
 }
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f2f2f2;
+    border-top: 1px solid #dfe1e5;
+    color: #6a6e72;
+    font-size: 14px;
+    padding: 12px 0;
+}
+
+#footer-ul-left {
+    padding-left: 22px;
+}
+
+#footer-ul-right {
+    padding-right: 38px;
+}
+
+#footer-ul-left li {
+    padding-right: 27px;
+}
+
+#footer-ul-right li {
+    padding-left: 27px;
+}
